@@ -1,0 +1,23 @@
+{
+    "name": "Rutas Del Perú",
+    "short_name": "RutasPerú",
+    "description": "Bienvenidos a Rutas Del Perú....",
+    "background_color": "#6c757d",
+    "theme_color": "#ffffff",
+    "orientation": "portrait",
+    "display": "standalone",
+    "start_url": "./?utm_source=web_app_manifest",
+    "scope": "./",
+    "lang": "es-MX",
+    "icons": [{
+            "src": "./img/iconos/icon512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/iconos/icon256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        }
+    ]
+}

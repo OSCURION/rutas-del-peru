@@ -1,0 +1,94 @@
+/*@keyframes miAnimacion {
+
+    30% {
+        background-image: url("../img/bgIndex.jpg");
+        background-size: cover;
+    }
+
+    50% {
+        background-image: url("../img/bgIndex.jpg");
+        background-size: cover;
+    }
+
+    70% {
+        background-image: url("../img/masthead.jpg");
+        background-size: cover;
+    }
+
+}*/
+
+
+
+body {
+    /*animation: miAnimacion 30s linear 1s infinite;*/
+    background-image: url("../img/bgIndex.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.masthead {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.3)), color-stop(75%, rgba(22, 22, 22, 0.7)), to(#161616)), url("../img/bgIndex.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.masthead h1 {
+    font-family: ALGERIAN;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.8rem;
+    background: -webkit-linear-gradient(rgb(95, 94, 8), rgb(241, 241, 241));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.masthead h2 {
+    max-width: 20rem;
+    font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+    .masthead h1 {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+
+    .imgStyles:hover {
+        -webkit-transform: scale(1.20);
+        border-radius: 10px;
+    }
+}
+
+@media (min-width: 992px) {
+    .masthead {
+        height: 100vh;
+        padding: 0;
+    }
+
+    .masthead h1 {
+        font-size: 6.5rem;
+        line-height: 6.5rem;
+        letter-spacing: 0.8rem;
+    }
+
+    .masthead h2 {
+        max-width: 30rem;
+        font-size: 1.25rem;
+    }
+}
+
+.bg-black {
+    background-color: #161616 !important;
+}
+
+footer {
+    background-color: #161616 !important;
+}
